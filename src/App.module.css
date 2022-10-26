@@ -1,0 +1,22 @@
+.app {
+  width: min(85%, 1000px);
+  padding-left: calc(50vw - min(42.5%, 500px));
+  padding-right: calc(50vw - min(42.5%, 500px));
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding-top: 2rem;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.appWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

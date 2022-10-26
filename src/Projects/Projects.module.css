@@ -1,0 +1,32 @@
+.projects {
+  margin-top: 2rem;
+  min-height: calc(calc(100vh - 4rem) - 40px);
+}
+
+.title {
+  text-align: center;
+}
+
+.titleText {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 7px;
+}
+
+.cards {
+  overflow-x: scroll;
+  overflow-y: visible;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 3rem 2rem 2rem 2rem;
+}
+
+.info {
+  text-align: center;
+}
+
+.help {
+  font-size: 0.8rem;
+  color: #999;
+}

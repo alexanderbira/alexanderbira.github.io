@@ -1,0 +1,55 @@
+[
+  {
+    "name": "URL Shortener",
+    "description": "URL shortener with accounts I made because I can.",
+    "date": "July 2022",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS",
+      "React",
+      "Firebase"
+    ],
+    "url": "https://go.alexbr.dev",
+    "image": "url.png"
+  },
+  {
+    "name": "Cube Society",
+    "description": "Site I made for my school's Rubik's Cube Society.",
+    "date": "September 2022",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS",
+      "React",
+      "Firebase"
+    ],
+    "url": "https://tiffin.club",
+    "image": "cube.svg"
+  },
+  {
+    "name": "Pixel Art Maker",
+    "description": "A simple pixel art maker with lots of features.",
+    "date": "August 2020",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "url": "https://pixel-art-maker.alexbr.dev",
+    "image": "pixel.png"
+  },
+  {
+    "name": "Atmosphere Model",
+    "description": "My gold award-winning submission to the 2022 BPhO computational physics challenge.",
+    "date": "August 2022",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS",
+      "React"
+    ],
+    "url": "https://comp-challenge.alexbr.dev",
+    "image": "earth.png"
+  }
+]
