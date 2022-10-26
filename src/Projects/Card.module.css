@@ -51,17 +51,21 @@ a {
 .name > a {
   font-size: 1.8rem;
   text-align: center;
-  background-image: linear-gradient(90deg, var(--color-orange), var(--color-red));
+  background-image: linear-gradient(
+    90deg,
+    var(--color-orange),
+    var(--color-red)
+  );
   text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .name > a:hover {
   text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.6);
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .description {
@@ -88,7 +92,7 @@ a {
 .image:hover {
   filter: blur(0);
   opacity: 0.8;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .tags {
@@ -106,7 +110,7 @@ a {
 
 .tag:hover {
   background-color: rgba(50, 50, 50, 0.8);
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .tagsAndDescriptionWrapper {

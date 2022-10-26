@@ -12,17 +12,17 @@ interface Project {
 }
 
 export default function Card(props: Project) {
+  //load the image from its path
   const [imageURL, setImageURL] = React.useState("");
-  console.log(props.image)
   import(`./images/${props.image}`).then((image) => setImageURL(image.default));
 
   return (
-    // @ts-ignore
-    <div className={`${cardStyles.card} hidden`} style={{ "--order": props.index }}>
-
-      <div className={cardStyles.date}>
-        {props.date}
-      </div>
+    <div
+      className={`${cardStyles.card} hidden`}
+      // @ts-ignore
+      style={{ "--order": props.index }}
+    >
+      <div className={cardStyles.date}>{props.date}</div>
       <h2 className={cardStyles.name}>
         <a href={props.url} target="_blank" rel="noreferrer">
           {props.name}
@@ -34,9 +34,7 @@ export default function Card(props: Project) {
         </a>
       </div>
       <div className={cardStyles.tagsAndDescriptionWrapper}>
-        <div className={cardStyles.description}>
-          {props.description}
-        </div>
+        <div className={cardStyles.description}>{props.description}</div>
         <div className={cardStyles.tags}>
           {props.tags.map((tag) => (
             <span className={cardStyles.tag} key={tag}>
@@ -45,7 +43,6 @@ export default function Card(props: Project) {
           ))}
         </div>
       </div>
-
     </div>
   );
 }
