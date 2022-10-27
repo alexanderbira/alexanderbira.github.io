@@ -1,6 +1,7 @@
 import contactStyles from "./Contact.module.css";
 import email from "./email.svg";
 import github from "./github.svg";
+import banano from "./banano.svg";
 import line from "./line.svg";
 
 export default function Contact() {
@@ -30,6 +31,18 @@ export default function Contact() {
             <img src={email} alt="email" className={contactStyles.icon} />
             <p>mail@alexbr.dev</p>
           </a>
+          {/* @ts-ignore */}
+          {typeof web3 !== "undefined" && (
+            <a
+              className={contactStyles.infoItem}
+              href="https://creeper.banano.cc/account/ban_1a1exbrdd1oqe7r1j6ebx887n8dopqpqbcdsdd5w38rst9zepz4641ejzr4y"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={banano} alt="banano" className={contactStyles.icon} />
+              <p>ban_1a1exbr…</p>
+            </a>
+          )}
         </div>
       </div>
     </div>

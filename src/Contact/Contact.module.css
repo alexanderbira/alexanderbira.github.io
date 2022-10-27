@@ -56,6 +56,6 @@
   transition-duration: 0.2s;
 }
 
-.infoItem:first-child {
+.infoItem:not(:last-child) {
   margin-bottom: 1rem;
 }
