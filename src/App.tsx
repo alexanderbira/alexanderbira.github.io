@@ -6,15 +6,13 @@ import Projects from "./Projects/Projects";
 
 function App() {
   return (
-    <div className={appStyles.appWrapper}>
-      <div
-        className={appStyles.app}
-        style={{ backgroundImage: `url(${polygons})` }}
-      >
-        <Profile />
-        <Projects />
-        <Contact />
-      </div>
+    <div
+      className={`${appStyles.app} app`}
+      style={{ backgroundImage: `url(${polygons})` }}
+    >
+      <Profile />
+      <Projects />
+      <Contact />
     </div>
   );
 }
