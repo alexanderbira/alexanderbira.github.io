@@ -1,7 +1,7 @@
 .app {
   width: min(85%, 1000px);
-  padding-left: calc(50vw - min(42.5%, 500px));
-  padding-right: calc(50vw - min(42.5%, 500px));
+  padding-left: calc(50% - min(42.5%, 500px));
+  padding-right: calc(50% - min(42.5%, 500px));
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -10,12 +10,4 @@
 
   background-position: center;
   background-size: cover;
-}
-
-.appWrapper {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }

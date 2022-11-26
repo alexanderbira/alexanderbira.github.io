@@ -9,7 +9,7 @@
   min-width: max(30%, 200px);
   min-height: 100%;
   max-height: 80vh;
-  overflow: scroll;
+  overflow-y: auto;
 }
 
 @media screen and (min-width: 768px) {

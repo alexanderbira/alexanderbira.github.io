@@ -9,8 +9,6 @@
 
 body {
   background-color: var(--color-bg);
-  background-repeat: no-repeat;
-  background-size: contain;
   color: #fff;
   font-family: "JetBrains Mono", monospace;
   font-size: 16px;
