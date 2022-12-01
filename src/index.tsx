@@ -17,7 +17,10 @@ function startObserver() {
     entries.forEach(
       (entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("show");
+          //make all the siblings of the loaded element fade in so that horizontal scrolling doesn't fade in cards
+          Array.from(entry.target.parentNode!.children).forEach((i) =>
+            i.classList.add("show")
+          );
         }
       },
       { threshold: 0.5 }

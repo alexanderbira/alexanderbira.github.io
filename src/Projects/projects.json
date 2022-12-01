@@ -51,5 +51,16 @@
     ],
     "url": "https://comp-challenge.alexbr.dev",
     "image": "earth.png"
+  },
+  {
+    "name": "Author Recognition",
+    "description": "My gold Gold CREST Award-winning extended project on using machine learning techniques for authorship attribution.",
+    "date": "September 2022",
+    "tags": [
+      "Jupyter Notebook",
+      "Machine Learning"
+    ],
+    "url": "https://github.com/alexanderbira/Using-Machine-Learning-Techniques-for-Authorship-Attribution",
+    "image": "book.png"
   }
 ]
