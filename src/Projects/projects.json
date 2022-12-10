@@ -1,7 +1,7 @@
 [
   {
     "name": "URL Shortener",
-    "description": "URL shortener with accounts I made because I can.",
+    "description": "URL shortener with accounts.",
     "date": "July 2022",
     "tags": [
       "HTML",
@@ -28,20 +28,8 @@
     "image": "cube.svg"
   },
   {
-    "name": "Pixel Art Maker",
-    "description": "A simple pixel art maker with lots of features.",
-    "date": "August 2020",
-    "tags": [
-      "HTML",
-      "CSS",
-      "JS"
-    ],
-    "url": "https://pixel-art-maker.alexbr.dev",
-    "image": "pixel.png"
-  },
-  {
     "name": "Atmosphere Model",
-    "description": "My gold award-winning submission to the 2022 BPhO computational physics challenge.",
+    "description": "Top-5-Gold-award-winning submission to the 2022 BPhO Computational Physics Challenge.",
     "date": "August 2022",
     "tags": [
       "HTML",
@@ -54,7 +42,7 @@
   },
   {
     "name": "Author Recognition",
-    "description": "My gold Gold CREST Award-winning extended project on using machine learning techniques for authorship attribution.",
+    "description": "Gold-CREST-Award-winning extended project on using machine learning techniques for authorship attribution.",
     "date": "September 2022",
     "tags": [
       "Jupyter Notebook",
