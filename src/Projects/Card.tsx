@@ -20,7 +20,7 @@ export default function Card(props: Project) {
     <div
       className={`${cardStyles.card} hidden`}
       // @ts-ignore
-      style={{ "--order": props.index }}
+      style={{ "--order": props.index, zIndex: props.index }}
     >
       <div className={cardStyles.date}>{props.date}</div>
       <h2 className={cardStyles.name}>

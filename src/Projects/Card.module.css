@@ -25,8 +25,8 @@
     transform: translateY(-1rem);
   }
 
-  .card:hover ~ .card {
-    transform: translateX(130px);
+  .card:has(~ .card:hover) {
+    transform: translateX(-130px);
   }
 
   .card:not(:first-child) {
@@ -38,6 +38,7 @@
   color: #888;
   font-family: monospace;
   font-size: 0.8rem;
+  text-align: right;
 }
 
 a {
