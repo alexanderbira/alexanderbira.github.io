@@ -33,6 +33,7 @@
 .infoItem {
   width: 100%;
   display: flex;
+  gap: 0.4em;
   align-items: center;
   color: white;
   text-decoration: none;

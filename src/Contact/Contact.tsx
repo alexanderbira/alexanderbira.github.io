@@ -1,7 +1,27 @@
 import contactStyles from "./Contact.module.css"
-import email from "./email.svg"
-import github from "./github.svg"
 import line from "./line.svg"
+
+import React from "react"
+import { BsEnvelopeFill, BsGithub } from "react-icons/bs"
+
+interface SocialLink {
+  icon: React.ReactNode
+  link: string
+  description: string
+}
+
+const socialLinks: SocialLink[] = [
+  {
+    icon: <BsGithub />,
+    link: "https://github.com/alexanderbira",
+    description: "@alexanderbira",
+  },
+  {
+    icon: <BsEnvelopeFill />,
+    link: "mailto:mail@alexbr.dev",
+    description: "mail@alexbr.dev",
+  },
+]
 
 export default function Contact() {
   return (
@@ -14,19 +34,12 @@ export default function Contact() {
 
       <div className={contactStyles.info}>
         <div className="hidden">
-          <a
-            href="https://github.com/alexanderbira"
-            target="_blank"
-            rel="noreferrer"
-            className={contactStyles.infoItem}
-          >
-            <img src={github} alt="github" className={contactStyles.icon} />
-            <p className={contactStyles.link}>@alexanderbira</p>
-          </a>
-          <a className={contactStyles.infoItem} href="mailto:mail@alexbr.dev">
-            <img src={email} alt="email" className={contactStyles.icon} />
-            <p>mail@alexbr.dev</p>
-          </a>
+          {socialLinks.map((socialLink, index) => (
+            <a key={index} href={socialLink.link} target="_blank" rel="noreferrer" className={contactStyles.infoItem}>
+              {socialLink.icon}
+              <p>{socialLink.description}</p>
+            </a>
+          ))}
         </div>
       </div>
     </div>
