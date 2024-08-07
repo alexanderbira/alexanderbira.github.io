@@ -20,8 +20,11 @@ body {
   opacity: 0;
   filter: blur(5px);
   translate: -100%;
-  transition: translate 0.5s ease calc(50ms * var(--order)),
-    transform 0.2s ease 0s, opacity 0.5s ease 0s, filter 0.5s ease 0s !important; /* I used different transition delays for transform and translate properties, meaning when they slide in on view it can be staggered, but when they slide on hover it's instant. */
+  transition:
+    translate 0.5s ease calc(50ms * var(--order)),
+    transform 0.2s ease 0s,
+    opacity 0.5s ease 0s,
+    filter 0.5s ease 0s !important; /* I used different transition delays for transform and translate properties, meaning when they slide in on view it can be staggered, but when they slide on hover it's instant. */
 }
 
 @media (prefers-reduced-motion) {

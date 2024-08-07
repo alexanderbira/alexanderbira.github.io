@@ -1,20 +1,21 @@
-import React from "react";
-import cardStyles from "./Card.module.css";
+import cardStyles from "./Card.module.css"
+
+import React from "react"
 
 interface Project {
-  name: string;
-  date: string;
-  description: string;
-  url: string;
-  image: string;
-  tags: string[];
-  index: number;
+  name: string
+  date: string
+  description: string
+  url: string
+  image: string
+  tags: string[]
+  index: number
 }
 
 export default function Card(props: Project) {
   //load the image from its path
-  const [imageURL, setImageURL] = React.useState("");
-  import(`./images/${props.image}`).then((image) => setImageURL(image.default));
+  const [imageURL, setImageURL] = React.useState("")
+  import(`./images/${props.image}`).then(image => setImageURL(image.default))
 
   return (
     <div
@@ -36,7 +37,7 @@ export default function Card(props: Project) {
       <div className={cardStyles.tagsAndDescriptionWrapper}>
         <div className={cardStyles.description}>{props.description}</div>
         <div className={cardStyles.tags}>
-          {props.tags.map((tag) => (
+          {props.tags.map(tag => (
             <span className={cardStyles.tag} key={tag}>
               {tag}
             </span>
@@ -44,5 +45,5 @@ export default function Card(props: Project) {
         </div>
       </div>
     </div>
-  );
+  )
 }

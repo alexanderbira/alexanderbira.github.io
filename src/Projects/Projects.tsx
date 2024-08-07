@@ -1,25 +1,20 @@
-import Card from "./Card";
-import line from "./line.svg";
-import projectsList from "./projects.json";
-import projectStyles from "./Projects.module.css";
+import Card from "./Card"
+import projectStyles from "./Projects.module.css"
+import line from "./line.svg"
+import projectsList from "./projects.json"
 
 export default function Projects() {
   return (
     <div className={projectStyles.projects}>
       <h1 className={projectStyles.title}>
-        <span
-          className={projectStyles.titleText}
-          style={{ backgroundImage: `url(${line})` }}
-        >
+        <span className={projectStyles.titleText} style={{ backgroundImage: `url(${line})` }}>
           Projects
         </span>
       </h1>
       <p className={projectStyles.info}>
         Here are some of the projects I've worked on.
         <br />
-        <span className={projectStyles.help}>
-          (Click on a project's title to open it)
-        </span>
+        <span className={projectStyles.help}>(Click on a project's title to open it)</span>
       </p>
       <div className={projectStyles.cards}>
         {projectsList.map((project, i) => (
@@ -36,5 +31,5 @@ export default function Projects() {
         ))}
       </div>
     </div>
-  );
+  )
 }

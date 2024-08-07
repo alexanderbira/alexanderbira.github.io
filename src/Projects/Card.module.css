@@ -52,11 +52,7 @@ a {
 .name > a {
   font-size: 1.8rem;
   text-align: center;
-  background-image: linear-gradient(
-    90deg,
-    var(--color-orange),
-    var(--color-red)
-  );
+  background-image: linear-gradient(90deg, var(--color-orange), var(--color-red));
   text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
