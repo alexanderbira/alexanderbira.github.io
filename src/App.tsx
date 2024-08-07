@@ -10,6 +10,9 @@ function App() {
       <Profile />
       <Projects />
       <Contact />
+      <span className="attribution">
+        Designed by <a href="https://github.com/alexanderbira/alexanderbira.github.io">Alex BR</a>
+      </span>
     </div>
   )
 }

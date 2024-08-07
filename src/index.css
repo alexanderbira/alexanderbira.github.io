@@ -17,10 +17,12 @@ body {
 }
 
 .hidden {
+  --order: default; /* This is a custom property that will be set in JavaScript to stagger the animations. */
   opacity: 0;
   filter: blur(5px);
   translate: -100%;
   transition:
+    /* stylelint-disable-next-line property-no-unknown */
     translate 0.5s ease calc(50ms * var(--order)),
     transform 0.2s ease 0s,
     opacity 0.5s ease 0s,
@@ -37,4 +39,50 @@ body {
   opacity: 1;
   filter: blur(0);
   translate: 0;
+}
+
+@keyframes textGradient {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 50% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.attribution {
+  text-align: center;
+  opacity: 0.3;
+  font-size: 0.8rem;
+  flex-grow: 0;
+  margin-bottom: 2em;
+}
+
+.attribution > a {
+  color: inherit !important;
+  text-decoration: underline;
+  font-weight: 800;
+  background-image: linear-gradient(135deg, var(--color-orange), var(--color-red));
+  background-size: 400% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.attribution:hover {
+  opacity: 1;
+}
+
+.attribution:hover > a {
+  opacity: 1 !important;
+  -webkit-text-fill-color: transparent;
+  color: var(--color-orange) !important;
+}
+
+.attribution > a:hover {
+  text-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.5);
+  animation: textGradient 1s ease infinite alternate;
+  transition-duration: 0.2s;
 }
