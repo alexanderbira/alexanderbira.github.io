@@ -1,73 +1,62 @@
 [
   {
-    "name": "XonT",
-    "description": "Generative AI tool for creating 3d stylised assets on tiles. 2nd place for AI in gaming bounty at Encode Club AI hackathon.",
-    "date": "March 2024",
+    "name": "My project 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi earum ex expedita, fuga fugit hic id iste laboriosam magnam maiores minima molestias non quas quasi quo recusandae reiciendis repudiandae saepe.",
+    "date": "Jan 2024",
     "tags": [
-      "Stability AI",
-      "Flask",
-      "React",
-      "Jupyter Notebook",
-      "Hackathon",
-      "Collaboration"
+      "Tag1",
+      "Tag2",
+      "Tag3"
     ],
-    "url": "https://github.com/alexanderbira/XonT",
-    "image": "tree.png"
+    "url": "https://example.com/1",
+    "image": "image1.jpg"
   },
   {
-    "name": "Author Recognition",
-    "description": "Extended project on using machine learning techniques for authorship attribution. Winner of Gold CREST Award.",
-    "date": "September 2022",
+    "name": "My project 2",
+    "description": "Tempora ullam? Accusamus atque corporis cum, debitis deleniti dolore ea earum ex expedita fugit harum illum ipsum maiores nemo nostrum, officia omnis praesentium provident quas quidem quis quisquam quo rerum.",
+    "date": "Feb 2024",
     "tags": [
-      "Jupyter Notebook",
-      "Machine Learning",
-      "Collaboration"
+      "Tag4",
+      "Tag5",
+      "Tag6"
     ],
-    "url": "https://github.com/alexanderbira/Using-Machine-Learning-Techniques-for-Authorship-Attribution",
-    "image": "book.png"
+    "url": "https://example.com/2",
+    "image": "image2.jpg"
   },
   {
-    "name": "Atmosphere Model",
-    "description": "2022 BPhO Computational Physics Challenge winning submission. Won top 5 gold award.",
-    "date": "August 2022",
+    "name": "My project 3",
+    "description": "Totam ut veniam voluptatibus? Amet corporis excepturi fugiat neque odit quos reprehenderit sit. Accusantium aperiam at repellendus sunt tempore! A alias amet at autem beatae distinctio eaque earum enim error.",
+    "date": "Mar 2024",
     "tags": [
-      "HTML",
-      "CSS",
-      "JS",
-      "React",
-      "Solo"
+      "Tag7",
+      "Tag8",
+      "Tag9"
     ],
-    "url": "https://comp-challenge.alexbr.dev",
-    "image": "earth.png"
+    "url": "https://example.com/3",
+    "image": "image3.jpg"
   },
   {
-    "name": "Cube Society",
-    "description": "Site I made for my school's Rubik's Cube Society.",
-    "date": "September 2022",
+    "name": "My project 4",
+    "description": "Esse et eum exercitationem hic maiores mollitia, nam nemo nihil nisi perspiciatis quaerat quis rem repudiandae saepe sint sunt tempore ullam vero. Amet delectus doloremque dolores doloribus error facilis fugit.",
+    "date": "Apr 2024",
     "tags": [
-      "HTML",
-      "CSS",
-      "JS",
-      "React",
-      "Firebase",
-      "Solo"
+      "Tag10",
+      "Tag11",
+      "Tag12"
     ],
-    "url": "https://tiffin-rubiks-cube.web.app",
-    "image": "cube.svg"
+    "url": "https://example.com/4",
+    "image": "image4.jpg"
   },
   {
-    "name": "URL Shortener",
-    "description": "URL shortener with accounts.",
-    "date": "July 2022",
+    "name": "My project 5",
+    "description": "Harum ipsa, odio quae quas rem sapiente. A, accusamus aliquid architecto, doloribus dolorum eius error esse, id iusto placeat possimus quia quo ratione rem veritatis. Cupiditate dolores magnam quaerat quos!",
+    "date": "May 2024",
     "tags": [
-      "HTML",
-      "CSS",
-      "JS",
-      "React",
-      "Firebase",
-      "Solo"
+      "Tag13",
+      "Tag14",
+      "Tag15"
     ],
-    "url": "https://go.alexbr.dev",
-    "image": "url.png"
+    "url": "https://example.com/5",
+    "image": "image5.jpg"
   }
 ]

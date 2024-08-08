@@ -4,12 +4,12 @@ import { BsEnvelopeFill, BsGithub } from "react-icons/bs"
 export const socialLinks: SocialLink[] = [
   {
     icon: <BsGithub />,
-    link: "https://github.com/alexanderbira",
-    description: "@alexanderbira",
+    link: "https://github.com",
+    description: "@myGithub",
   },
   {
     icon: <BsEnvelopeFill />,
-    link: "mailto:mail@alexbr.dev",
-    description: "mail@alexbr.dev",
+    link: "mailto:mail@example.com",
+    description: "mail@example.com",
   },
 ]

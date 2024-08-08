@@ -1,3 +1,4 @@
-export const name = "Alex BR"
-export const greeting = "Welcome to my little website"
+export const hello = "Hello. I'm"
+export const name = "John Smith"
+export const greeting = "Welcome to my website"
 export const showWave = true

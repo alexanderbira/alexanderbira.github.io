@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap");
+
 :root {
-  --color-primary: #ff8a00;
-  --color-secondary: #e52e71;
-  --color-bg: #0e0d14;
-  --color-elevated: #16151c;
+  --color-primary: #3640ed;
+  --color-secondary: #1ce865;
+  --color-bg: #040607;
+  --color-elevated: #161832;
+  --color-text: #ffcbcb;
+  --shadow-color: #2e0000;
+  --color-text-card: white;
+  --font-family: JetBrains Mono, monospace;
 }

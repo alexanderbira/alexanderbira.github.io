@@ -2,7 +2,7 @@ import appStyles from "./App.module.css"
 import Contact from "./Contact/Contact"
 import Profile from "./Profile/Profile"
 import Projects from "./Projects/Projects"
-import polygons from "./polygon-scatter.svg"
+import polygons from "./defs/background.svg"
 
 function App() {
   return (
