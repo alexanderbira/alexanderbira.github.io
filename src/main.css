@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap");
 
-:root {
-  --color-orange: #ff8a00;
-  --color-red: #e52e71;
-  --color-bg: #0e0d14;
-  --color-elevated: #16151c;
-}
-
 body {
   background-color: var(--color-bg);
   color: #fff;
@@ -22,7 +15,6 @@ body {
   filter: blur(5px);
   translate: -100%;
   transition:
-    /* stylelint-disable-next-line property-no-unknown */
     translate 0.5s ease calc(50ms * var(--order)),
     transform 0.2s ease 0s,
     opacity 0.5s ease 0s,
@@ -53,19 +45,24 @@ body {
   }
 }
 
+.attributionContainer {
+  text-align: center;
+}
+
 .attribution {
   text-align: center;
   opacity: 0.3;
   font-size: 0.8rem;
   flex-grow: 0;
-  margin-bottom: 2em;
+  width: fit-content;
+  padding: 2em;
 }
 
 .attribution > a {
   color: inherit !important;
   text-decoration: underline;
   font-weight: 800;
-  background-image: linear-gradient(135deg, var(--color-orange), var(--color-red));
+  background-image: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
   background-size: 400% auto;
   background-clip: text;
   -webkit-background-clip: text;
@@ -78,7 +75,7 @@ body {
 .attribution:hover > a {
   opacity: 1 !important;
   -webkit-text-fill-color: transparent;
-  color: var(--color-orange) !important;
+  color: var(--color-primary) !important;
 }
 
 .attribution > a:hover {

@@ -2,6 +2,12 @@ import cardStyles from "./Card.module.css"
 
 import React from "react"
 
+interface ImageFile {
+  default: string
+}
+
+const imagesModule = import.meta.glob<ImageFile>("../defs/images/*")
+
 interface Project {
   name: string
   date: string
@@ -15,12 +21,12 @@ interface Project {
 export default function Card(props: Project) {
   //load the image from its path
   const [imageURL, setImageURL] = React.useState("")
-  import(`./images/${props.image}`).then(image => setImageURL(image.default))
+  imagesModule[`../defs/images/${props.image}`]().then(image => setImageURL(image.default))
 
   return (
     <div
       className={`${cardStyles.card} hidden`}
-      // @ts-ignore
+      // @ts-expect-error: "--order" is a custom property
       style={{ "--order": props.index, zIndex: props.index }}
     >
       <div className={cardStyles.date}>{props.date}</div>

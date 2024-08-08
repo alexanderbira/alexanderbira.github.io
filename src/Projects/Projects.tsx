@@ -1,16 +1,21 @@
+/// <reference types="vite-plugin-svgr/client" />
 import Card from "./Card"
 import projectStyles from "./Projects.module.css"
-import line from "./line.svg"
-import projectsList from "./projects.json"
+import Line from "./line.svg?react"
+
+import projectsList from "../defs/projects.json"
 
 export default function Projects() {
   return (
     <div className={projectStyles.projects}>
-      <h1 className={projectStyles.title}>
-        <span className={projectStyles.titleText} style={{ backgroundImage: `url(${line})` }}>
-          Projects
-        </span>
-      </h1>
+      <div className={projectStyles.titleWrapper}>
+        <h1 className={projectStyles.title}>
+          <span>Projects</span>
+          <div className={projectStyles.lineContainer}>
+            <Line className={projectStyles.line} />
+          </div>
+        </h1>
+      </div>
       <p className={projectStyles.info}>
         Here are some of the projects I've worked on.
         <br />

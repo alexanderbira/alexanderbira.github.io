@@ -52,7 +52,7 @@ a {
 .name > a {
   font-size: 1.8rem;
   text-align: center;
-  background-image: linear-gradient(90deg, var(--color-orange), var(--color-red));
+  background-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
   text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
@@ -103,11 +103,6 @@ a {
   padding: 0.2rem 0.5rem;
   margin: 0.2rem;
   font-size: small;
-}
-
-.tag:hover {
-  background-color: rgba(50, 50, 50, 0.8);
-  transition-duration: 0.2s;
 }
 
 .tagsAndDescriptionWrapper {

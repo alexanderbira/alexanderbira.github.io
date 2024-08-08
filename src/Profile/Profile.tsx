@@ -1,5 +1,6 @@
+/// <reference types="vite-plugin-svgr/client" />
 import profileStyles from "./Profile.module.css"
-import line from "./line.svg"
+import Line from "./line.svg?react"
 
 export default function Profile() {
   function scrollDown() {
@@ -11,10 +12,13 @@ export default function Profile() {
   return (
     <div className={profileStyles.profile}>
       <h1 className={profileStyles.header}>
-        Hi, I'm{" "}
-        <span className={profileStyles.alex} style={{ backgroundImage: `url(${line})` }}>
+        Hi, I'm&nbsp;
+        <div className={profileStyles.underlinedText}>
           Alex BR
-        </span>
+          <div className={profileStyles.lineContainer}>
+            <Line className={profileStyles.line} />
+          </div>
+        </div>
       </h1>
       <p className={profileStyles.info}>
         Welcome to my little website <span className={profileStyles.wave}>👋</span>
