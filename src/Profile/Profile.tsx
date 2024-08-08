@@ -2,6 +2,8 @@
 import profileStyles from "./Profile.module.css"
 import Line from "./line.svg?react"
 
+import { greeting, name, showWave } from "../defs/aboutme.ts"
+
 export default function Profile() {
   function scrollDown() {
     window.scrollTo({
@@ -14,14 +16,14 @@ export default function Profile() {
       <h1 className={profileStyles.header}>
         Hi, I'm&nbsp;
         <div className={profileStyles.underlinedText}>
-          Alex BR
+          {name}
           <div className={profileStyles.lineContainer}>
             <Line className={profileStyles.line} />
           </div>
         </div>
       </h1>
       <p className={profileStyles.info}>
-        Welcome to my little website <span className={profileStyles.wave}>👋</span>
+        {greeting} {showWave && <span className={profileStyles.wave}>👋</span>}
       </p>
       <div className={profileStyles.scrollIndicator} id="scrollIndicator" onClick={scrollDown}>
         ↓
