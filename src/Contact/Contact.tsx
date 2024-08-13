@@ -2,7 +2,7 @@
 import contactStyles from "./Contact.module.css"
 import Line from "./line.svg?react"
 
-import { socialLinks } from "../defs/socials.tsx"
+import { socialLinks } from "../customisation/socials.tsx"
 
 export default function Contact() {
   return (

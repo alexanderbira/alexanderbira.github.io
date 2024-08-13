@@ -3,7 +3,7 @@ import Card from "./Card"
 import projectStyles from "./Projects.module.css"
 import Line from "./line.svg?react"
 
-import projectsList from "../defs/projects.json"
+import projectsList from "../customisation/projects.json"
 
 export default function Projects() {
   return (

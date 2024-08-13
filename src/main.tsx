@@ -1,5 +1,5 @@
 import App from "./App.tsx"
-import "./defs/theme.css"
+import "./customisation/theme.css"
 import "./main.css"
 
 import { StrictMode } from "react"

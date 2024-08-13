@@ -6,7 +6,7 @@ interface ImageFile {
   default: string
 }
 
-const imagesModule = import.meta.glob<ImageFile>("../defs/images/*")
+const imagesModule = import.meta.glob<ImageFile>("../customisation/images/*")
 
 interface Project {
   name: string
@@ -21,7 +21,7 @@ interface Project {
 export default function Card(props: Project) {
   //load the image from its path
   const [imageURL, setImageURL] = React.useState("")
-  imagesModule[`../defs/images/${props.image}`]().then(image => setImageURL(image.default))
+  imagesModule[`../customisation/images/${props.image}`]().then(image => setImageURL(image.default))
 
   return (
     <div

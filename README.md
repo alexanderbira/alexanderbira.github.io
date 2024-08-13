@@ -40,20 +40,28 @@ Here are some things you might want to change:
 - Meta tags and title:
   - Update the `index.html` file
 - About me:
-  - Update the `src/defs/aboutme.ts` file
+  - Update the `src/customisation/aboutme.ts` file
 - Background image:
-  - Replace the `src/defs/background.svg` file
+  - Replace the `src/customisation/background.svg` file
 - Theme:
-  - Update the `src/defs/theme.css` file
+  - Update the `src/customisation/theme.css` file
 - Socials:
-  - Update the `src/defs/socials.tsx` file
+  - Update the `src/customisation/socials.tsx` file
 - Package.json:
   - Update the `name` and `homepage` fields with your GitHub username
 - Projects
-  - Update the `src/defs/projects.json` file
-  - Add project images to the `src/defs/images` folder
+  - Update the `src/customisation/projects.json` file
+  - Add project images to the `src/customisation/images` folder
 
 4. Deploy to GitHub Pages
+```bash
+npm run deploy
+```
+
+## Adding new projects
+1. Add a new object to the array in the `src/customisation/projects.json` file
+2. Add the project image to the `src/customisation/images` folder
+3. Run the following command to redeploy the website:
 ```bash
 npm run deploy
 ```
