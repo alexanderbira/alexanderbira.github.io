@@ -1,9 +1,12 @@
-# Simple Personal Website Template
+# Personal Website Template
+
 This is a template for a simple personal website. It's easy to customise and deploy, and looks fantastic.
 
 Made with React, TypeScript, and pure CSS 💪
 
 Live demo: [https://alexbr.dev/personal-website-template](https://alexbr.dev/personal-website-template)
+
+![image](https://github.com/user-attachments/assets/98e4799d-c699-4c1f-add1-e4df78a96206)
 
 ## Features
 - Responsive design - looks great on all devices
