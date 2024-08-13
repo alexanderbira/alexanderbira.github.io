@@ -1,50 +1,59 @@
-# React + TypeScript + Vite
+# Simple Personal Website Template
+This is a template for a simple personal website. It's easy to customise and deploy, and looks fantastic.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Made with React, TypeScript, and pure CSS 💪
 
-Currently, two official plugins are available:
+Live demo: [https://alexbr.dev/personal-website-template](https://alexbr.dev/personal-website-template)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Responsive design - looks great on all devices
+- Easy to customize - quickly change the content and theme
+- Easy to deploy - deploy to GitHub Pages with a single command
+- Easy to maintain - once you set it up, you literally just edit a json file and run a command to add new projects
 
-## Expanding the ESLint configuration
+## Quick Start
+### Generate a new repository from this template
+Click the "Use this template" button at the top of the page. This will create a new repository with the same files as this one.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Name your repository as "username.github.io" where "username" is your GitHub username. This is necessary for GitHub Pages to work.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Clone the repository and install dependencies
+```bash
+git clone https://github.com/<username>/<username>.github.io.git
+cd <username>.github.io
+npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Start the development server and open the website in your browser
+```bash
+npm run dev
+```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Customize the content to your liking.
+The website will be updated in real-time as you make changes.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+Here are some things you might want to change:
+- Favicon
+  - Upload your favicon to the `public` folder and change the `link`'s `href` in `index.html` if necessary
+- Manifest:
+  - Update the `public/manifest.json` file
+- Meta tags and title:
+  - Update the `index.html` file
+- About me:
+  - Update the `src/defs/aboutme.ts` file
+- Background image:
+  - Replace the `src/defs/background.svg` file
+- Theme:
+  - Update the `src/defs/theme.css` file
+- Socials:
+  - Update the `src/defs/socials.tsx` file
+- Package.json:
+  - Update the `name` and `homepage` fields with your GitHub username
+- Projects
+  - Update the `src/defs/projects.json` file
+  - Add project images to the `src/defs/images` folder
+
+4. Deploy to GitHub Pages
+```bash
+npm run deploy
 ```
