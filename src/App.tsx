@@ -1,9 +1,9 @@
 import appStyles from "./App.module.css"
+import Attribution from "./Attribution/Attribution.tsx"
 import Contact from "./Contact/Contact"
 import Profile from "./Profile/Profile"
 import Projects from "./Projects/Projects"
 import polygons from "./customisation/background.svg"
-import Attribution from "./Attribution/Attribution.tsx"
 
 function App() {
   return (
@@ -14,7 +14,6 @@ function App() {
 
       {/* Attribution - please do not remove this section */}
       <Attribution />
-
     </div>
   )
 }
