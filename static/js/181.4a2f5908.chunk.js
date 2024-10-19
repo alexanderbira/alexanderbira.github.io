@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[181],{181:function(e,o,p){e.exports=p.p+"static/media/grim.becd9d176ee583f4cf58.png"}}]);

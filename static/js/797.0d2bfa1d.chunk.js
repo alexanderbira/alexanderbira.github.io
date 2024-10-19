@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[797],{797:function(c,e,t){c.exports=t.p+"static/media/fractal.c5c4a732fbdfecc6ea54.png"}}]);
