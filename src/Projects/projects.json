@@ -1,5 +1,47 @@
 [
   {
+    "name": "CPP Connect",
+    "description": "A platform for Imperial College Computing Students to connect with employers. Completed as part of my internship with Imperial DoC EdTech.",
+    "date": "August-September 2024",
+    "tags": [
+      "Next.JS",
+      "Docker",
+      "TypeScript",
+      "Prisma ORM",
+      "PostgreSQL",
+      "Internship"
+    ],
+    "url": "https://github.com/imperial/cpp-connect",
+    "image": "CPP.svg"
+  },
+  {
+    "name": "Fractal Visualiser",
+    "description": "A web app for visualising Mandelbrot and Julia sets. Work-in-progress.",
+    "date": "September 2024",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "C",
+      "WebAssembly"
+    ],
+    "url": "https://alexbr.dev/fractals",
+    "image": "fractal.png"
+  },
+  {
+    "name": "Assembly IDE",
+    "description": "A terminal-based IDE for a subset of the ARM A64 assembly language. Made for my Imperial College Computing 1st Year Group Project.",
+    "date": "June 2024",
+    "tags": [
+      "C",
+      "Assembly",
+      "ARM A64",
+      "Group Project"
+    ],
+    "url": "https://github.com/alexanderbira/armv8",
+    "image": "grim.png"
+  },
+  {
     "name": "XonT",
     "description": "Generative AI tool for creating 3d stylised assets on tiles. 2nd place for AI in gaming bounty at Encode Club AI hackathon.",
     "date": "March 2024",
