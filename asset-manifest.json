@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e58a1d9d.css",
-    "main.js": "/static/js/main.570473a1.js",
+    "main.js": "/static/js/main.8b32ed79.js",
     "static/js/600.81ce13bc.chunk.js": "/static/js/600.81ce13bc.chunk.js",
     "static/js/426.b4c4ae81.chunk.js": "/static/js/426.b4c4ae81.chunk.js",
     "static/js/94.b9405585.chunk.js": "/static/js/94.b9405585.chunk.js",
@@ -20,16 +20,17 @@
     "static/media/polygon-scatter.svg": "/static/media/polygon-scatter.1476d357a489716258bb12610743d744.svg",
     "static/media/CPP.svg": "/static/media/CPP.b833b3918ca6696096a6.svg",
     "static/media/line.svg": "/static/media/line.9b481e084fe214484cf9d6c7467532d2.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.a946a251bf98e8cc33165133457063f4.svg",
     "static/media/github.svg": "/static/media/github.9320a050d90c1dc67ad15782fd3bb6bd.svg",
     "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.940c45009ec04b215659bf48fcf029ab.svg",
     "static/media/cube.svg": "/static/media/cube.5459dccea26a26e07f17.svg",
     "static/media/banano.svg": "/static/media/banano.d2588a20216789689c0847634076e80f.svg",
     "main.e58a1d9d.css.map": "/static/css/main.e58a1d9d.css.map",
-    "main.570473a1.js.map": "/static/js/main.570473a1.js.map"
+    "main.8b32ed79.js.map": "/static/js/main.8b32ed79.js.map"
   },
   "entrypoints": [
     "static/css/main.e58a1d9d.css",
-    "static/js/main.570473a1.js"
+    "static/js/main.8b32ed79.js"
   ]
 }
