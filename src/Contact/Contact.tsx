@@ -1,6 +1,7 @@
 import contactStyles from "./Contact.module.css";
 import email from "./email.svg";
 import github from "./github.svg";
+import linkedin from "./linkedin.svg";
 import banano from "./banano.svg";
 import line from "./line.svg";
 
@@ -26,6 +27,15 @@ export default function Contact() {
           >
             <img src={github} alt="github" className={contactStyles.icon} />
             <p className={contactStyles.link}>@alexanderbira</p>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/alexb-r/"
+            target="_blank"
+            rel="noreferrer"
+            className={contactStyles.infoItem}
+          >
+            <img src={linkedin} alt="linkedin" className={contactStyles.icon} />
+            <p className={contactStyles.link}>Alexander Biraben-Renard</p>
           </a>
           <a className={contactStyles.infoItem} href="mailto:mail@alexbr.dev">
             <img src={email} alt="email" className={contactStyles.icon} />
