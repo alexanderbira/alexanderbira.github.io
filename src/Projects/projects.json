@@ -1,5 +1,19 @@
 [
   {
+    "name": "LTL Specification Analysis",
+    "description": "Pipeline to detect conflicts in LTL specifications. Undergraduate research project in the Imperial Department of Computing.",
+    "date": "June-August 2025",
+    "tags": [
+      "Python",
+      "Formal Methods",
+      "Docker",
+      "Research",
+      "Internship"
+    ],
+    "url": "https://github.com/alexanderbira/benchmark-specs",
+    "image": "LTL.png"
+  },
+  {
     "name": "CPP Connect",
     "description": "A platform for Imperial College Computing Students to connect with employers. Completed as part of my internship with Imperial DoC EdTech.",
     "date": "August-September 2024",
